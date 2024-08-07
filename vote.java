@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class vote {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);//getting input
         System.out.print("Enter your age: ");
         int age = scanner.nextInt(); 
         if (age >= 18) {
